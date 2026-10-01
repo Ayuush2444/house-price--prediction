@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import numpy as np
 import panda as pd
-
 # Load the pre-trained model
 model = joblib.load(r"C:\Users\ASUS\OneDrive\Desktop\House Price Prediction\model.pkl")
 
