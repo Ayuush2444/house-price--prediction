@@ -16,8 +16,8 @@ st.write("This app uses machine learning for predicting house prices based on gi
 st.divider()
 
 # Input fields for the user
-Bedrooms = st.number_input("Number of bedrooms", min_value=0, value=0)
-Bathrooms = st.number_input("Number of bathrooms", min_value=0, value=0)
+Bedrooms = st.number_input("Number of bedrooms you want", min_value=0, value=0)
+Bathrooms = st.number_input("Number of bathrooms you want", min_value=0, value=0)
 LivingArea = st.number_input("Living Area (sq ft)", min_value=0, value=2000)
 LotArea = st.number_input("Lot Area (sq ft)", min_value=0, value=5000)  # Added Lot Area input
 Floors = st.number_input("Number of floors", min_value=0.0, value=1.5, step=0.1)
